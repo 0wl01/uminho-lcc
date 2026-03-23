@@ -43,3 +43,34 @@ Operações
                 |X|...              Tecnicos
                                 |
                                 |X|...
+
+15. Quais são as operações comuns à montagem e aos técnicos?
+
+Montagem                            TecnicosOperacoes
+    |                                     |
+    (PI)operação                      (PI)operação
+                    INTERSEÇÃO
+
+19. Quantas peças existem?
+
+Peças
+    |
+    count(*)->nr_peças
+
+20. Quais são os aparelhos cuja quantidade total produzida é superior a 100?
+
+Produção
+    |
+    (agregar)Aparelho,SUM(quantidade)->soma_qtd
+    |
+    (filtro)soma_qtd>100
+
+21. Qual  o  custo  médio  das  montagens  de  cada  peça,  mostrando  as  peças  com  maiores 
+médias primeiro?
+
+Montagem
+    |
+    (agregar)idpeça; AVG(custo)<-custo_medio
+    |
+    (ordenar)custo_medio DESC
+Duvida: que merda é o desc?
