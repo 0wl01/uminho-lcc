@@ -1,5 +1,5 @@
 # Laboratórios de Programação I
 
-## Elaborado por José Diogo Ferreira Barbosa (a96609)
+## Nota Final: 10
 
-Uma cópia barata do famoso Worms, criado em Haskell no âmbito da cadeira de Laboratórios de Programação I da UM.
+Abdicou-se do projeto para estudar para outras cadeiras e o Vibe Coder nao conseguiu explicar nada do que escreveu.
