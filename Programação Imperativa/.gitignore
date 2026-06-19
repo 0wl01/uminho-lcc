@@ -1,0 +1,41 @@
+# --- Binários e Executáveis ---
+# Ignora todos os ficheiros sem extensão (comuns em Linux/macOS para executáveis)
+*
+!*/
+!*.*
+
+# Ignora executáveis específicos de Windows
+*.exe
+*.out
+*.app
+
+# --- Objetos e Bibliotecas ---
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+
+# --- Pastas de Build e Debug ---
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.dSYM/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# --- Exceções (Garantir que o que queres passa sempre) ---
+!*.c
+!*.h
+!*.md
+!*.pdf
+!makefile
+!Makefile
