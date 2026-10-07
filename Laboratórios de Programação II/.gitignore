@@ -1,0 +1,10 @@
+build/
+bin/
+testing/
+docs/
+tags
+.vscode/
+# Ficheiros do gcov (ferramenta de teste de cobertura do GCC)
+*.gcno
+*.gcda
+*.gcov
